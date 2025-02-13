@@ -1,0 +1,67 @@
+.site-header{
+    background-color: #6365db;
+    padding: 10px 20px;
+    border-bottom: 1px solid #6461c1;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logov img{
+    height: 400px;
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+.search-bar{
+   width: 400px;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-bar input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.profile a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.category-menu ul{
+    list-style-type: none;
+    padding: 0;
+    padding: 0;
+    display:flex;
+}
+
+.category-menu ul li{
+    margin-right: 20px;
+}
+
+.category-menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.category-menu ul li a:hover{
+    color: #fffefe;
+}
