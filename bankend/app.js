@@ -13,7 +13,7 @@ const {verifyToken,isAdmin} = require("./middleware/auth-middleware");
 app.use(cors());
 app.use(expores.json());
 app.get("/",(req, res)=>{
-    res.send("Server running");
+    res.send("Server running is running");
 });
  app.use("/category",verifyToken,isAdmin, categoryRoutes);
  app.use("/brand",verifyToken,isAdmin,brandRoutes);
